@@ -68,7 +68,7 @@ gulp.task('cache:clear', (callback) =>{
 );
 
 gulp.task('build',function(callback){
-    runSequence('clean:dist',['sass','useref','font','images'],callback)
+    runSequence('clean:dist',['sass','useref','fonts','images'],callback)
 })
 
 gulp.task('default',function(callback){
